@@ -1,8 +1,9 @@
 let curso = prompt("¿Qué tipo de curso te interesa? (Course, Carrera, Master)");
-
 let beca = prompt("¿Tienes alguna beca? (Facebook, Google, Jesua, ninguna)");
 
-let precioMensual;
+let precioMensual = 0;
+let duracion = 0;
+
 if (curso.toLowerCase() === "course") {
   precioMensual = 4999;
   duracion = 2;
